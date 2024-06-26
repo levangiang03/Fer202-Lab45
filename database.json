@@ -1,0 +1,98 @@
+{
+  "user": [
+    {
+      "id": "1",
+      "email": "member@gmail.com",
+      "password": "abc@#",
+      "type": "google",
+      "role": 1
+    },
+    {
+      "id": "2",
+      "email": "admin@gmail.com",
+      "password": "123@#",
+      "type": "system",
+      "role": 2
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Electronic"
+    },
+    {
+      "id": "2",
+      "name": "Computer"
+    },
+    {
+      "id": "3",
+      "name": "Smartphone"
+    }
+  ],
+  "products": [
+    {
+      "name": "Android TV 80 inch",
+      "price": 10000000,
+      "description": "",
+      "category": 1,
+      "brand": [
+        {
+          "id": 1,
+          "name": "Samsung"
+        },
+        {
+          "id": 2,
+          "name": "LG"
+        },
+        {
+          "id": 3,
+          "name": "Xiaomi"
+        }
+      ],
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Iphone 16 ProMax (Future)",
+      "price": 50000000,
+      "description": "",
+      "category": 3,
+      "brand": [
+        {
+          "id": 1,
+          "name": "Apple"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Android smartphone",
+      "price": 15000000,
+      "description": "",
+      "category": 3,
+      "brand": [
+        {
+          "id": 1,
+          "name": "Samsung"
+        },
+        {
+          "id": 2,
+          "name": "Microsoft"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Samsung Galaxy Note 10 - Core i5",
+      "price": 8000000,
+      "description": "",
+      "category": 3,
+      "brand": [
+        {
+          "id": 1,
+          "name": "Samsung"
+        }
+      ]
+    }
+  ]
+}
